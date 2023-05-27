@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;in.ineuron.bean&apos; to &apos;in.ineuron.comp&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj-21-SpringBean-StreoTypeAnnotation&apos;&#x0D;&#x0A;- Original element: &apos;IOCProj-21-SpringBean-StreoTypeAnnotation/src/in.ineuron.bean&apos;&#x0D;&#x0A;- Renamed element: &apos;IOCProj-21-SpringBean-StreoTypeAnnotation/src/in.ineuron.comp&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;in.ineuron.bean&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;in.ineuron.bean" name="in.ineuron.comp" qualified="false" references="true" stamp="1684729275216" textual="false" version="1.0"/>
+</session>

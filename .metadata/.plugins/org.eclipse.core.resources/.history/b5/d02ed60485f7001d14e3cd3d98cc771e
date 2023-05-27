@@ -1,0 +1,4 @@
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbcUrl= jdbc:mysql:///ineuron
+jdbc.username=root
+jdbc.password=Rakesh123

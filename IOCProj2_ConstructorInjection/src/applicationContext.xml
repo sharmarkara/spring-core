@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+		<!-- Configuring DEPENDANT bean using Setter injection -->
+		<bean class="java.util.Date" id="dt">
+			<property value="93" name="year" />
+			<property value="0" name="month" />
+			<property value="03" name="date" />
+
+		</bean>
+
+		<!-- Configuring DEPENDANT bean using Constructor injection -->
+		<bean class="java.util.Date" id="dt1" />
+
+		<!-- Configuring Target bean -->
+		<bean class="in.rakesh.bean.WishMessageGenerator" id="wmg">
+			<property name="date" ref="dt" />
+			<constructor-arg name="date" ref="dt1" />
+		</bean>
+
+</beans>

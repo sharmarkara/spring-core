@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TestApp.java&apos; to &apos;IOCProj2_ConstructorInjection/src/in.rakesh.Test&apos;&#x0D;&#x0A;- Original project: &apos;IOCProj2_ConstructorInjection&apos;&#x0D;&#x0A;- Destination element: &apos;IOCProj2_ConstructorInjection/src/in.rakesh.Test&apos;&#x0D;&#x0A;- Original element: &apos;in.rakesh.bean.TestApp.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;in.rakesh.Test" element1="/src&lt;in.rakesh.bean{TestApp.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1683774151053" units="1" version="1.0"/>
+</session>

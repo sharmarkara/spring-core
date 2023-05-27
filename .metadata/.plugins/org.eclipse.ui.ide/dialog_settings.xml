@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Spring-WorkSpace\IOCProj-27-DILayerApproachApp"/>
+			<item value="E:\Spring-WorkSpace\IOCProj-26-PandC-namepsace-App"/>
+			<item value="E:\Spring-WorkSpace\IOCProj-25-BeanInheritanceRealTimeDependancyInjection"/>
+			<item value="E:\EnterpriseJava_iNeuron\Spring_Core\SpringSourceCode_18_03_2023\IOCProj-24-SpringBeanAnnotationLifeCycleApp"/>
+			<item value="E:\EnterpriseJava_iNeuron\Spring_Core\SpringSourceCode_18_03_2023\IOCProj-23-RDISteroTypeAnnotations"/>
+			<item value="E:\Spring-WorkSpace\IOCProj-22-SpringBean-SteroTypeAnnotation-RunTimeValues"/>
+			<item value="E:\Spring-WorkSpace\IOCProj-20-SpringBean@Autowiring"/>
+			<item value="E:\Spring-WorkSpace\IOCProj18-SpringI18N"/>
+			<item value="E:\Spring-WorkSpace\IOCProj15-SpringScope"/>
+			<item value="E:\Spring-WorkSpace\IOCProj13-DefaultBeanID"/>
+			<item value="E:\Spring-WorkSpace\IOCProj12-BeanInheritanceRealTimeDependancyInjection"/>
+			<item value="E:\Spring-WorkSpace\IOCProj11-BeanInheritanceConstructorInjection"/>
+			<item value="E:\Spring-WorkSpace\IOCProj10-BeanInheritanceApp"/>
+			<item value="E:\Spring-WorkSpace\IOCProj9-NullInjectionApp"/>
+			<item value="E:\Spring-WorkSpace\IOCProj2_ConstructorInjection"/>
+			<item value="E:\Spring-WorkSpace\IOCProj2-ConstructorInjection-1"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="157"/>
+		<item key="DIALOG_Y_ORIGIN" value="170"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

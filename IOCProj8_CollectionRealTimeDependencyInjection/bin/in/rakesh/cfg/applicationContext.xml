@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- DataSource Configuration -->
+	<bean id="mysqlDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value='com.mysql.cj.jdbc.Driver' />
+		<property name="url" value='jdbc:mysql:///ineuron' />
+		<property name="connectionProperties">
+			<props>
+				<prop key="user">root</prop>
+				<prop key="password">Rakesh123</prop>
+			</props>
+		</property>
+	</bean>
+
+	<!-- DAO Configuration -->
+	<bean class="in.rakesh.dao.CustomerMYSQLDAOImp" id="mysqlDaoImpl">
+		<constructor-arg name="dataSource" ref="mysqlDataSource" />
+	</bean>
+
+	<!-- Service Configuration -->
+	<bean class="in.rakesh.service.CustomerMgmtServiceImpl" id="serviceImpl">
+
+		<constructor-arg name="dao" ref="mysqlDaoImpl" />
+	</bean>
+
+	<!-- Controller Configuration -->
+	<bean class="in.rakesh.controller.CustomerController" id="controller">
+		<constructor-arg name="service" ref="serviceImpl" />
+	</bean>
+</beans>

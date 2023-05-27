@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+		<!-- Configuring DEPENDANT bean using Setter injection -->
+		<bean id="person1" class="in.rakesh.bean.Person">
+			<property name="pid" value="10"/>
+			<property name="pname" value="Rakesh"/>
+			<property name="paddress" value="Bangalore"/>
+			<property name="income" value="24088.3f"/>
+		</bean>
+		
+		<!-- Configuring DEPENDANT bean using Parameter injection -->
+		<bean id="person2" class="in.rakesh.bean.Person">
+			<property name="pid" value="7"/>
+			<property name="pname" value="Dhoni"/>
+			<property name="paddress" value="Ranchi"/>
+			<property name="income" value="8909.5f"/>
+		</bean>
+</beans>
